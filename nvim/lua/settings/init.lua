@@ -22,3 +22,8 @@ set.relativenumber = true
 
 set.splitbelow = true
 set.splitright = true
+
+vim.diagnostic.config({
+    virtual_text = true,
+    underline = true,
+})
